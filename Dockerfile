@@ -67,7 +67,7 @@ RUN mvn install:install-file -Dfile=lib/JiraIntegration.jar -DgroupId=com.jira -
 # Build the project (compile classes and create JAR)
 # Use `mvn clean install` to build the project and install it to the local Maven repository.
 # This will also create the `target` directory with the compiled classes and JAR.
-RUN mvn clean install -DskipTests
+RUN mvn clean install -DskipTests -e -x
 
 # Install chromedriver manually
 # Ensure the chromedriver version matches your Chrome browser version.
