@@ -1,5 +1,6 @@
 # Use Amazon Corretto 11 as base image
-FROM amazoncorretto:11
+FROM amazoncorretto:11-alpine
+MAINTAINER kesava
 
 # Set environment to avoid interactive prompts during build
 ENV DEBIAN_FRONTEND=noninteractive
