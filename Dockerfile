@@ -1,5 +1,5 @@
 # Use Amazon Corretto 11 as base image
-FROM amazoncorretto:11-alpine
+FROM amazoncorretto:11
 MAINTAINER kesava
 
 # Set environment to avoid interactive prompts during build
