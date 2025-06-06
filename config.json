@@ -1,0 +1,12 @@
+{
+  "github": {
+    "base": "https://api.github.com/repos/",
+    "target_branch": "master",
+    "current_branch": "",
+    "repo": "AlgoShack/algoTestScripts",
+    "cicdFlag": false,
+    "push_to_current_branch": false,
+    "create_PR_to_target_branch": false
+	
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<ApplicationSettings>
+<URL></URL>
+<APIURL></APIURL>
+<BrowserType>Chrome</BrowserType>
+<EnableDebugLog>False</EnableDebugLog>
+<EnableScrenshotForSucess>True</EnableScrenshotForSucess>
+<EnableScrenshotForFailure>True</EnableScrenshotForFailure>
+<EnableScrenshotForAllSteps>False</EnableScrenshotForAllSteps>
+<EnableVideoCaptureForSucess>False</EnableVideoCaptureForSucess>
+<EnableSeparateFailureReport>False</EnableSeparateFailureReport>
+<QueuingForTestcases>False</QueuingForTestcases>
+<ParallelExecution>False</ParallelExecution>
+<EnableCompareImage>False</EnableCompareImage>
+<MaximumTimeInSecondsToWaitForControl>30</MaximumTimeInSecondsToWaitForControl>
+<MaximumTimeInMilliSecondsToWaitForPage>15000</MaximumTimeInMilliSecondsToWaitForPage>
+<TimeIntervalInMilliSecondsToWaitForPage>500</TimeIntervalInMilliSecondsToWaitForPage>
+<ToEmail></ToEmail>
+<FromEmail>codegenerator.algoaf@gmail.com</FromEmail>
+<FromPassword>AlgoAF@123</FromPassword>
+<TestStatusForEmailAlert>Passed</TestStatusForEmailAlert>
+<ProfilerID></ProfilerID>
+</ApplicationSettings>
