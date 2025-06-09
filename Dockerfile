@@ -1,4 +1,4 @@
-successful built image content  in Deep VM
+
 
 # Use Amazon Corretto 11 as base image
 FROM amazoncorretto:11
