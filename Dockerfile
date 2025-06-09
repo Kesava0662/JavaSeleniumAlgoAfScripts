@@ -84,4 +84,4 @@ EXPOSE 8080
 
 # Entry point to start Xvfb and run MainApp
 CMD Xvfb :99 -screen 0 1024x768x16 & \
-    java -cp "target/classes:target/test-classes:lib/*:target/dependency/*" runner.MainApp
+    java -cp "target/classes:target/test-classes:lib/*:target/dependency/*" TestRunner.java
